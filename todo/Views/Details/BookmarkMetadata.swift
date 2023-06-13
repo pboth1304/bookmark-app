@@ -15,7 +15,7 @@ struct BookmarkMetadata: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                Text("Fällig am")
+                Text("Erinnerung am")
                     .frame(width: labelWidth, alignment: .leading)
                 Text(DateUtils.getGermanDateFormat(date: bookmark.dueDate, includeTime: true))
                 Spacer()
