@@ -24,7 +24,7 @@ struct BookmarkMetadata: View {
             HStack {
                 Text("Status")
                     .frame(width: labelWidth, alignment: .leading)
-                Text(bookmark.isClosed ? "Geschlossen" : "Offen")
+                Text(bookmark.isClosed ? "Gelesen" : "Offen")
                 Spacer()
             }
             Divider()
