@@ -59,7 +59,7 @@ struct BookmarkList: View {
                 }
                 
                 Section(
-                    header: Text("Geschlossen (" + String(closedBookmarkSearchResults.count) + ")")
+                    header: Text("Gelesen (" + String(closedBookmarkSearchResults.count) + ")")
                 ) {
                     ForEach(closedBookmarkSearchResults) { bookmark in
                         NavigationLink {
