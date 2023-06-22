@@ -76,7 +76,7 @@ struct CreateNewForm: View {
                     Button("Abbrechen", action: dismissSelf)
                 }
                 ToolbarItem(placement: .principal) {
-                    Text(bookmarkToEdit == nil ? "Lesezeichen erstellen" : bookmarkToEdit!.title + " bearbeiten")
+                    Text(bookmarkToEdit == nil ? "Eintrag erstellen" : bookmarkToEdit!.title + " bearbeiten")
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Speichern", action: {
