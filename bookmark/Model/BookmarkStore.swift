@@ -9,7 +9,7 @@ import Foundation
 
 @MainActor
 class BookmarkStore: ObservableObject {
-    @Published var bookmarks: [Bookmark] = Bookmark.allBookmarks
+    @Published var bookmarks: [Bookmark] = []
     
     var openBookmarks: [Bookmark] {
         return bookmarks.filter { $0.isClosed == false }

@@ -25,10 +25,10 @@ struct Bookmark: Hashable, Identifiable, Encodable, Decodable {
 
 extension Bookmark {
     static let allBookmarks = [
-        Bookmark(title: "Todo 1", description: "Lorem ipsum", dueDate: Date.now, createdAt: Date.now, tags: ["Büro"], link: "www.google.de", priority: Priority.high),
-        Bookmark(title: "Todo 2", description: "Lorem ipsum dolor", dueDate: Date(), createdAt: Date(), tags: ["Hugo"], link: "www.google.de", priority: Priority.low),
-        Bookmark(title: "Todo 3", description: "Lorem ipsum aga", dueDate: Date(), createdAt: Date(), tags: ["Büro", "Projekt", "AG 2", "UI"], link: "www.google.de", priority: Priority.high),
-        Bookmark(title: "Todo 4", description: "Lorem", dueDate: Date(), createdAt: Date(), tags: ["Büro"], link: "www.google.de", priority: Priority.medium),
-        Bookmark(title: "Todo 5", description: "Lorem ipsum aga g ogam gaoakgagm", dueDate: Date(), createdAt: Date(), isClosed: true, tags: ["Privat"], link: "www.google.de", priority: Priority.high)
+        Bookmark(title: "Bookmark 1", description: "Lorem ipsum", dueDate: Date.now, createdAt: Date.now, tags: ["Büro"], link: "www.google.de", priority: Priority.high),
+        Bookmark(title: "Bookmark 2", description: "Lorem ipsum dolor", dueDate: Date(), createdAt: Date(), tags: ["Hugo"], link: "www.google.de", priority: Priority.low),
+        Bookmark(title: "Bookmark 3", description: "Lorem ipsum aga", dueDate: Date(), createdAt: Date(), tags: ["Büro", "Projekt", "AG 2", "UI"], link: "www.google.de", priority: Priority.high),
+        Bookmark(title: "Bookmark 4", description: "Lorem", dueDate: Date(), createdAt: Date(), tags: ["Büro"], link: "www.google.de", priority: Priority.medium),
+        Bookmark(title: "Bookmark 5", description: "Lorem ipsum aga g ogam gaoakgagm", dueDate: Date(), createdAt: Date(), isClosed: true, tags: ["Privat"], link: "www.google.de", priority: Priority.high)
     ]
 }
